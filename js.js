@@ -10,7 +10,7 @@ sendBtn.addEventListener('click', () => {
     son++
     body.className = "relative"
     let container = document.createElement('div')
-    container.className = "items-center flex gap-2 ml-[400px] mt-[20px] "
+    container.className = "items-center flex gap-2 ml-[330px] mt-[20px] "
     text.type = "checkbox"
     text.className = "w-[50px] h-[50px]"
     label.textContent = input.value + "" + "#" + son
@@ -79,4 +79,5 @@ input.addEventListener("keydown", (event) => {
     if (event.key === "Enter"){
         sendBtn.click()
     }
+
 })
